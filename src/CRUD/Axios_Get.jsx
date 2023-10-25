@@ -1,3 +1,5 @@
+// This is we are getting data from the url and displaying it 
+
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
@@ -13,7 +15,7 @@ function Axios_Get() {
     <div>Practise
         {practise.map(e =>{    //we have to map what we want 
             return(            //don't forget to use return
-                <div>          {/* inside return we need to give any tag */}
+                <div key={e.id}>          {/*id is used for unique identification inside return we need to give any tag */}
                 {e.restaurantName} 
                 </div>
             )
