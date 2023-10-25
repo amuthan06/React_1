@@ -12,7 +12,7 @@ function Parent1() {
   return (
     <div>
         <Child1 getData={getData}/>
-        {data}
+        <h1>{data}</h1>
     </div>
   )
 }
