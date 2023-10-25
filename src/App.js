@@ -10,7 +10,7 @@ import ParentUseContext from './passsingData/useContext/ParentUseContext';
 
 
 function App() {
-
+console.log("Trst")
   return (
     <div>
       <BrowserRouter>
