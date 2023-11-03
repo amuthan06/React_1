@@ -13,9 +13,9 @@ function Axios_Get() {
     })
   return (
     <div>Practise
-        {practise.map(e =>{    //we have to map what we want 
+        {practise.map(e =>{    // (****important)we have to map what we want display 
             return(            //don't forget to use return
-                <div key={e.id}>          {/*id is used for unique identification inside return we need to give any tag */}
+                <div key={e.id}>          {/* (****important)id is used for unique identification inside return we need to give any tag */}
                 {e.restaurantName} 
                 </div>
             )
